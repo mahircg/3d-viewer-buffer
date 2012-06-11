@@ -1,0 +1,32 @@
+﻿Build started 11-6-2012 11:24:18.
+     1>Project "C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Stereo Rendering Graph\Stereo Rendering Graph.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Stereo Rendering Graph.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses" /I"C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\common" /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CustomAllocator.cpp RenderMain.cpp
+         CustomAllocator.cpp
+         RenderMain.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\Stereo Rendering Graph.exe.embed.manifest.res" "Release\Stereo Rendering Graph_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86\\" /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses\Release" strmbase.lib winmm.lib d3d9.lib d3dx9.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Stereo Rendering Graph.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.lib" /MACHINE:X86 "Release\Stereo Rendering Graph.exe.embed.manifest.res"
+         Release\CustomAllocator.obj
+         Release\RenderMain.obj
+         LINK : C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.exe not found or not built by the last incremental link; performing full link
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Release\Stereo Rendering Graph.exe.embed.manifest" /manifest "Release\Stereo Rendering Graph.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Release\Stereo Rendering Graph.exe.embed.manifest.res" "Release\Stereo Rendering Graph_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\\Lib\x86\\" /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\multimedia\directshow\baseclasses\Release" strmbase.lib winmm.lib d3d9.lib d3dx9.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Stereo Rendering Graph.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.lib" /MACHINE:X86 "Release\Stereo Rendering Graph.exe.embed.manifest.res"
+         Release\CustomAllocator.obj
+         Release\RenderMain.obj
+         Stereo Rendering Graph.vcxproj -> C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Release\Stereo Rendering Graph.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\Stereo Rendering Graph.unsuccessfulbuild".
+         Touching "Release\Stereo Rendering Graph.lastbuildstate".
+     1>Done Building Project "C:\Users\mechatronica\Desktop\Stereo Rendering Graph\Stereo Rendering Graph\Stereo Rendering Graph\Stereo Rendering Graph.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.99
